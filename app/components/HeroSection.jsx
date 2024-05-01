@@ -36,7 +36,7 @@ const HeroSection = () => {
     />
                 </b>
             </p>
-            <i className="text-base sm::text-lg mb-6 lg:text-xl text-white">
+            <i className="text-base sm:text-lg mb-6 lg:text-xl text-white">
                 Website/Application Developer, graduated from California State University of Fullerton
             </i>
             <div class="div mt-4 ml-1 font-extrabold">
@@ -50,16 +50,16 @@ const HeroSection = () => {
           </div>
 
           {/* Circular Image with Gradient of Professional Picture */}
-          <div className="col-span-5 place-self-center mt-4 mb-6">
+          <div className="col-span-5 place-self-center mt-8 mb-6">
             <div className="rounded-full bg-[#ffd590]  border-violet-600 border-2 
-              w-[250px] h-[250px] lg:w-[400px] lg:h-[400px] relative
+              w-[250px] h-[250px] lg:w-[350px] lg:h-[350px] relative
               bg-[linear-gradient(0deg,rgba(0,0,300,0.75)_6.82%,rgba(20,90,0,0.00)_76.44%)]">
               <Image
                 src = "/images/CircularProfPic.png"
                 alt='Hero Image'
                 className="absolute transform -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2"
-                width={400}
-                height={300}
+                width={350}
+                height={350}
               />
             </div>
           </div>
