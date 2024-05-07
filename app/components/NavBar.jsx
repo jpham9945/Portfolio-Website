@@ -4,7 +4,6 @@ import React, { useState } from "react";
 import NavLink from "./NavLink";
 import { Bars3Icon, XMarkIcon } from "@heroicons/react/24/solid";
 import MenuOverlay from "./MenuOverlay";
-import Image from "next/image";
 
 const navLinks = [
   {
@@ -26,10 +25,10 @@ const NavBar = () => {
     const [navbarOpen, setNavbarOpen] = useState(false);
     
     return (
-        <nav className = "fixed top-0 left-0 right-0 z-10 bg-[#8550ff] bg-opacity-90">
+        <nav className = "fixed top-0 left-0 right-0 z-10 bg-[#8550ff] bg-opacity-90 list-none">
             <div className= "flex flex-wrap items-center justify-between mx-auto px-4 py-4">
                 <Link href = {"/"} className="text-2xl md:text-5xl text-white font-semibold">
-                    <h1 className ="bg-gradient-to-br from-blue-500 via-purple-500 to-pink-500 ml-4 px-3 font-bold">  
+                    <h1 className ="bg-gradient-to-br from-blue-500 via-purple-500 to-pink-500 ml-4 px-3 font-bold ">  
                         <li> Lo<span className="text-transparent bg-clip-text bg-gradient-to-r from-yellow-300 to-orange-300 ">de</span> </li>
                         <li> De<span className="text-transparent bg-clip-text bg-gradient-to-r from-yellow-300 to-orange-300 ">v</span></li>
 
