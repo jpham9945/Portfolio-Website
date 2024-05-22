@@ -11,9 +11,9 @@ const TAB_DATA = [
       <ul className = "list-disc pl-2">
         <li>Kotlin</li>
         <li>C++</li>
+        <li>Javascript</li>
         <li>HTML</li>
         <li>CSS</li>
-        <li>Javascript</li>
         <li>React</li>
       </ul>
     )
@@ -32,8 +32,8 @@ const TAB_DATA = [
   },
 
   {
-    title:"Certifications",
-    id:"certifications",
+    title:"Degrees",
+    id:"degrees",
     content: (
       <ul className = "list-disc pl-2">
         <li>Degree of Bachelors for Computer Science</li>
@@ -83,10 +83,10 @@ const AboutSection = () => {
                     </TabButton>
                     
                     <TabButton 
-                    selectTab={() => handleTabChange("certifications")} 
-                    active={tab === "certifications"}
+                    selectTab={() => handleTabChange("degrees")} 
+                    active={tab === "degrees"}
                     > 
-                    {" "} Certifications {" "} 
+                    {" "} Degree {" "} 
                     </TabButton>
                 </div>
                 <div className ="mt-8">{TAB_DATA.find((t) => t.id === tab).content} </div>

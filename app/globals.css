@@ -32,6 +32,10 @@ body {
   }
 }
 
-/* li {
-  list-style: none;
+/* img[src$=".png"] {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 800px;
+  background-color: #ddd;
 } */

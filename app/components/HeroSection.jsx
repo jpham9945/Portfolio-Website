@@ -26,9 +26,7 @@ const HeroSection = () => {
         'a Web Developer',
         1000,
         'a Mobile Developer',
-        1000,
-        'a former diamond TFT player',
-        800
+        1000
       ]}
       wrapper="span"
       speed={50}
